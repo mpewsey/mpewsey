@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: '0 */3 * * *'
 
 jobs:
   build:
@@ -18,13 +18,13 @@ jobs:
       - name: Setup Python 3.9
         uses: actions/setup-python@v2
         with:
-          python-version: "3.9"
-          cache: "pip"
+          python-version: '3.9'
+          cache: 'pip'
       - name: Cache dependencies and build outputs to improve workflow execution time
         uses: actions/cache@v2
         with:
           path: ${{ env.pythonLocation }}
-          key: ${{ runner.os }}-${{ env.pythonLocation }}-${{ hashFiles("requirements.txt") }}
+          key: ${{ runner.os }}-${{ env.pythonLocation }}-${{ hashFiles('requirements.txt') }}
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Write README file
