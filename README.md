@@ -1,4 +1,4 @@
-# Projects
+## Projects
 
 | Project | Build | Documentation | Coverage |
 | ------- | ----- | ------------- | -------- |
