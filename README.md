@@ -1,8 +1,8 @@
-# Projects
+## Projects
 
-| Project | Build | Documentation | Coverage |
-| ------- | ----- | ------------- | -------- |
-| [CivPy](https://github.com/mpewsey/civpy) | [![Build Status](https://travis-ci.com/mpewsey/civpy.svg?branch=master)](https://travis-ci.com/mpewsey/civpy) | [![Documentation Status](https://readthedocs.org/projects/civpy/badge/?version=latest)](https://civpy.readthedocs.io/en/latest/?badge=latest) | [![codecov](https://codecov.io/gh/mpewsey/civpy/branch/master/graph/badge.svg?token=zbJbsGGSoL)](https://codecov.io/gh/mpewsey/civpy) |
+| Project | Issues | Build | Documentation | Coverage |
+| ------- | ------ | ----- | ------------- | -------- |
+| [CivPy](https://github.com/mpewsey/civpy) | [![Issues](https://img.shields.io/github/issues/mpewsey/civpy)](https://github.com/mpewsey/civpy/issues) | [![Build Status](https://travis-ci.com/mpewsey/civpy.svg?branch=master)](https://travis-ci.com/mpewsey/civpy) | [![Documentation Status](https://readthedocs.org/projects/civpy/badge/?version=latest)](https://civpy.readthedocs.io/en/latest/?badge=latest) | [![codecov](https://codecov.io/gh/mpewsey/civpy/branch/master/graph/badge.svg?token=zbJbsGGSoL)](https://codecov.io/gh/mpewsey/civpy) |
 
 
 ## Recent Blog Posts
@@ -18,4 +18,4 @@
 * [Transmission Line 2D EMF Calculations](https://mpewsey.github.io/2021/09/21/transmission-line-2d-emf-calculations.html)
 * [Transmission Line V-String Insulator Calculations](https://mpewsey.github.io/2021/09/20/transmission-line-v-string-insulator-calculations.html)
 
-Last Refresh: 29 Nov 2021, 20:27 UTC
+Last Refresh: 29 Nov 2021, 20:42 UTC
