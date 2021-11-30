@@ -37,5 +37,3 @@
 * [DBSCAN Clustering of Transmission Line Phase LiDAR](https://mpewsey.github.io/2021/09/23/dbscan-clustering-of-transmission-line-phase-lidar.html)
 * [Transmission Line 2D EMF Calculations](https://mpewsey.github.io/2021/09/21/transmission-line-2d-emf-calculations.html)
 * [Transmission Line V-String Insulator Calculations](https://mpewsey.github.io/2021/09/20/transmission-line-v-string-insulator-calculations.html)
-
-Last Refresh: 30 Nov 2021, 10:21 AM EST
