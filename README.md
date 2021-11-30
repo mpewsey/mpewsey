@@ -39,4 +39,4 @@
 * [Transmission Line 2D EMF Calculations](https://mpewsey.github.io/2021/09/21/transmission-line-2d-emf-calculations.html)
 * [Transmission Line V-String Insulator Calculations](https://mpewsey.github.io/2021/09/20/transmission-line-v-string-insulator-calculations.html)
 
-Last Refresh: 29 Nov 2021, 07:32 PM EST
+Last Refresh: 29 Nov 2021, 07:53 PM EST
