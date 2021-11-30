@@ -1,3 +1,20 @@
+## Familiar Technologies
+
+![Python](https://img.shields.io/badge/Python-555555?logo=python&logoColor=white&style=flat-square)
+![C#](https://img.shields.io/badge/C%23-555555.svg?logo=c-sharp&logoColor=white&style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-555555.svg?style=flat-square&logo=javascript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-555555.svg?style=flat-square&logo=html5&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-555555.svg?logo=numpy&logoColor=white&style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-555555.svg?logo=pandas&logoColor=white&style=flat-square)
+![SciPy](https://img.shields.io/badge/SciPy-555555.svg?logo=scipy&logoColor=white&style=flat-square)
+![Keras](https://img.shields.io/badge/Keras-555555.svg?logo=Keras&logoColor=white&style=flat-square)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-555555.svg?logo=jupyter&logoColor=white&style=flat-square)
+![Django](https://img.shields.io/badge/Django-555555.svg?logo=django&logoColor=white&style=flat-square)
+![Heroku](https://img.shields.io/badge/Heroku-555555.svg?logo=heroku&logoColor=white&style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-555555.svg?logo=githubactions&logoColor=white&style=flat-square)
+![Unity](https://img.shields.io/badge/Unity-555555.svg?logo=unity&logoColor=white&style=flat-square)
+![TravisCI](https://img.shields.io/badge/Travis_CI-555555.svg?logo=travis&logoColor=white&style=flat-square)
+
 ## Open Source Projects
 
 | Project | Type | Issues | Build | Documentation | Coverage |
@@ -11,22 +28,5 @@
 ## Recent Blog Posts
 
 {{ blog_posts }}
-
-## Familiar Technologies
-
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?logo=Keras&logoColor=white&style=flat-square)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white&style=flat-square)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?logo=c-sharp&logoColor=white&style=flat-square)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?logo=githubactions&logoColor=white&style=flat-square)
-![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=white&style=flat-square)
-![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?logo=scipy&logoColor=%white&style=flat-square)
-![Heroku](https://img.shields.io/badge/Heroku-%23430098.svg?logo=heroku&logoColor=white&style=flat-square)
-![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?logo=pandas&logoColor=white&style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?logo=numpy&logoColor=white&style=flat-square)
-![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white&style=flat-square)
-![TravisCI](https://img.shields.io/badge/Travis_CI-%232B2F33.svg?logo=travis&logoColor=white&style=flat-square)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat-square&logo=javascript&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-%23000000.svg?logo=unity&logoColor=white&style=flat-square)
 
 Last Refresh: {{ date_time }}
