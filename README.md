@@ -27,6 +27,7 @@
 
 ## Recent Blog Posts
 
+* [How to Use Jupyter Notebooks for GitHub Pages Posts](https://mpewsey.github.io/2021/12/05/converting-jupyter-notebooks-to-github-pages-posts.html)
 * [Minimum Distance Between Ellipses](https://mpewsey.github.io/2021/11/12/minimum-distance-between-ellipses.html)
 * [Minimum Distance Between Ellipse and Point](https://mpewsey.github.io/2021/11/07/minimum-distance-between-ellipse-and-point.html)
 * [An Approach to Weight-Based Battle AI](https://mpewsey.github.io/2021/10/01/weight-based-battle-ai.html)
@@ -36,4 +37,3 @@
 * [Steel Member Tensile Strength: Equivalent Number of Bolts for Net Area Calculations](https://mpewsey.github.io/2021/09/24/steel-member-tensile-strength-equivalent-number-of-bolts.html)
 * [DBSCAN Clustering of Transmission Line Phase LiDAR](https://mpewsey.github.io/2021/09/23/dbscan-clustering-of-transmission-line-phase-lidar.html)
 * [Transmission Line 2D EMF Calculations](https://mpewsey.github.io/2021/09/21/transmission-line-2d-emf-calculations.html)
-* [Transmission Line V-String Insulator Calculations](https://mpewsey.github.io/2021/09/20/transmission-line-v-string-insulator-calculations.html)
