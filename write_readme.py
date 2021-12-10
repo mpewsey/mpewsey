@@ -13,7 +13,7 @@ TIMEZONE = ZoneInfo("US/Eastern")
 def fetch_blog_post_links() -> list:
     request = requests.get(BLOG_URL)
     soup = BeautifulSoup(request.content, "html.parser")
-    headers = soup.find_all("h2")
+    headers = soup.find_all("h3")
     links = [x.find("a") for x in headers]
     return [f"* [{''.join(x.contents)}]({BLOG_URL + x['href']})" for x in links]
 
