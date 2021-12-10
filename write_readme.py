@@ -15,7 +15,7 @@ def fetch_blog_post_links() -> list:
     soup = BeautifulSoup(request.content, "html.parser")
     headers = soup.find_all("h3")
     links = [x.find("a") for x in headers]
-    return [f"* [{strip(''.join(x.contents))}]({BLOG_URL + x['href']})" for x in links]
+    return [f"* [{''.join(x.contents).strip()}]({BLOG_URL + x['href']})" for x in links]
 
 
 def get_blog_posts_string() -> str:
