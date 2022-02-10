@@ -45,6 +45,14 @@
       <td><a href="https://codecov.io/gh/mpewsey/plsxml"><img src="https://img.shields.io/codecov/c/github/mpewsey/plsxml?style=flat-square&amp;token=zbJbsGGSoL" alt="codecov"></a></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/mpewsey/ManiaMap">ManiaMap</a></td>
+      <td>C#</td>
+      <td><a href="https://github.com/mpewsey/ManiaMap/issues"><img src="https://img.shields.io/github/issues/mpewsey/ManiaMap?style=flat-square" alt="Issues"></a></td>
+      <td><a href="https://github.com/mpewsey/ManiaMap/actions/workflows/tests.yml"><img src="https://github.com/mpewsey/ManiaMap/actions/workflows/tests.yml/badge.svg?event=push"></a></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/mpewsey/HexagonalUI">HexagonalUI</a></td>
       <td>C# (Unity)</td>
       <td><a href="https://github.com/mpewsey/HexagonalUI/issues"><img src="https://img.shields.io/github/issues/mpewsey/HexagonalUI?style=flat-square" alt="Issues"></a></td>
