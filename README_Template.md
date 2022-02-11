@@ -16,7 +16,7 @@
       <td><a href="https://github.com/mpewsey/civpy">CivPy</a></td>
       <td>Python</td>
       <td><a href="https://github.com/mpewsey/civpy/issues"><img src="https://img.shields.io/github/issues/mpewsey/civpy?style=flat-square" alt="Issues"></a></td>
-      <td><a href="https://travis-ci.com/mpewsey/civpy"><img src="https://img.shields.io/travis/mpewsey/civpy?style=flat-square" alt="Build Status"></a></td>
+      <td><a href="https://travis-ci.com/mpewsey/civpy"><img src="https://img.shields.io/travis/mpewsey/civpy/master?style=flat-square" alt="Build Status"></a></td>
       <td><a href="https://civpy.readthedocs.io/en/latest/?badge=latest"><img src="https://readthedocs.org/projects/civpy/badge/?version=latest&amp;style=flat-square" alt="Documentation Status"></a></td>
       <td><a href="https://codecov.io/gh/mpewsey/civpy"><img src="https://img.shields.io/codecov/c/github/mpewsey/civpy?style=flat-square&amp;token=zbJbsGGSoL" alt="codecov"></a></td>
     </tr>
@@ -24,7 +24,7 @@
       <td><a href="https://github.com/mpewsey/xsect">XSect</a></td>
       <td>Python</td>
       <td><a href="https://github.com/mpewsey/xsect/issues"><img src="https://img.shields.io/github/issues/mpewsey/xsect?style=flat-square" alt="Issues"></a></td>
-      <td><a href="https://travis-ci.com/mpewsey/xsect"><img src="https://img.shields.io/travis/mpewsey/xsect?style=flat-square" alt="Build Status"></a></td>
+      <td><a href="https://travis-ci.com/mpewsey/xsect"><img src="https://img.shields.io/travis/mpewsey/xsect/master?style=flat-square" alt="Build Status"></a></td>
       <td><a href="https://xsect.readthedocs.io/en/latest/?badge=latest"><img src="https://readthedocs.org/projects/xsect/badge/?version=latest&amp;style=flat-square" alt="Documentation Status"></a></td>
       <td><a href="https://codecov.io/gh/mpewsey/xsect"><img src="https://img.shields.io/codecov/c/github/mpewsey/xsect?style=flat-square&amp;token=zbJbsGGSoL" alt="codecov"></a></td>
     </tr>
@@ -32,7 +32,7 @@
       <td><a href="https://github.com/mpewsey/emf">EMF</a></td>
       <td>Python</td>
       <td><a href="https://github.com/mpewsey/emf/issues"><img src="https://img.shields.io/github/issues/mpewsey/emf?style=flat-square" alt="Issues"></a></td>
-      <td><a href="https://travis-ci.com/mpewsey/emf"><img src="https://img.shields.io/travis/mpewsey/emf?style=flat-square" alt="Build Status"></a></td>
+      <td><a href="https://travis-ci.com/mpewsey/emf"><img src="https://img.shields.io/travis/mpewsey/emf/master?style=flat-square" alt="Build Status"></a></td>
       <td><a href="https://emf.readthedocs.io/en/latest/?badge=latest"><img src="https://readthedocs.org/projects/emf/badge/?version=latest&amp;style=flat-square" alt="Documentation Status"></a></td>
       <td><a href="https://codecov.io/gh/mpewsey/emf"><img src="https://img.shields.io/codecov/c/github/mpewsey/emf?style=flat-square&amp;token=zbJbsGGSoL" alt="codecov"></a></td>
     </tr>
@@ -40,7 +40,7 @@
       <td><a href="https://github.com/mpewsey/plsxml">PLSXML</a></td>
       <td>Python</td>
       <td><a href="https://github.com/mpewsey/plsxml/issues"><img src="https://img.shields.io/github/issues/mpewsey/plsxml?style=flat-square" alt="Issues"></a></td>
-      <td><a href="https://travis-ci.com/mpewsey/plsxml"><img src="https://img.shields.io/travis/mpewsey/plsxml?style=flat-square" alt="Build Status"></a></td>
+      <td><a href="https://travis-ci.com/mpewsey/plsxml"><img src="https://img.shields.io/travis/mpewsey/plsxml/master?style=flat-square" alt="Build Status"></a></td>
       <td><a href="https://plsxml.readthedocs.io/en/latest/?badge=latest"><img src="https://readthedocs.org/projects/plsxml/badge/?version=latest&amp;style=flat-square" alt="Documentation Status"></a></td>
       <td><a href="https://codecov.io/gh/mpewsey/plsxml"><img src="https://img.shields.io/codecov/c/github/mpewsey/plsxml?style=flat-square&amp;token=zbJbsGGSoL" alt="codecov"></a></td>
     </tr>
