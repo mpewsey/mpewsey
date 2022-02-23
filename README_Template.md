@@ -50,7 +50,7 @@
       <td><a href="https://github.com/mpewsey/ManiaMap/issues"><img src="https://img.shields.io/github/issues/mpewsey/ManiaMap?style=flat-square" alt="Issues"></a></td>
       <td><a href="https://actions-badge.atrox.dev/mpewsey/ManiaMap/goto?ref=main"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmpewsey%2FManiaMap%2Fbadge%3Fref%3Dmain&style=flat-square&logo=none&label=build" /></a></td>
       <td>-</td>
-      <td>-</td>
+      <td><a href="https://codecov.io/gh/mpewsey/ManiaMap"><img src="https://img.shields.io/codecov/c/github/mpewsey/ManiaMap?style=flat-square&amp;token=zbJbsGGSoL" alt="codecov"></a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/mpewsey/HexagonalUI">HexagonalUI</a></td>
