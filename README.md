@@ -1,5 +1,6 @@
 ## Recent Blog Posts
 
+* 19 Apr 2022 [An Approach to Randomly Distributing Game Collectables](https://mpewsey.github.io/2022/04/19/collectable-distribution-algorithm.html)
 * 17 Dec 2021 [Wire Sag-Tension Algorithm](https://mpewsey.github.io/2021/12/17/sag-tension-algorithm.html)
 * 05 Dec 2021 [How to Use Jupyter Notebooks for GitHub Pages Posts](https://mpewsey.github.io/2021/12/05/converting-jupyter-notebooks-to-github-pages-posts.html)
 * 12 Nov 2021 [Minimum Distance Between Ellipses](https://mpewsey.github.io/2021/11/12/minimum-distance-between-ellipses.html)
@@ -9,4 +10,3 @@
 * 28 Sep 2021 [MNIST Handwritten Digit Classification](https://mpewsey.github.io/2021/09/28/mnist-handwritten-digit-classification.html)
 * 27 Sep 2021 [Transmission Line Structure LiDAR Comparison](https://mpewsey.github.io/2021/09/27/transmission-line-structure-lidar-comparison.html)
 * 24 Sep 2021 [Steel Member Tensile Strength: Equivalent Number of Bolts for Net Area Calculations](https://mpewsey.github.io/2021/09/24/steel-member-tensile-strength-equivalent-number-of-bolts.html)
-* 23 Sep 2021 [DBSCAN Clustering of Transmission Line Phase LiDAR](https://mpewsey.github.io/2021/09/23/dbscan-clustering-of-transmission-line-phase-lidar.html)
