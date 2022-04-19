@@ -24,11 +24,17 @@ MONTHS = {
 }
 
 
+"""
+Returns a list of date times parsed from a list of date strings.
+"""
 def parse_dates(dates) -> list:
     split = [x.split(" ") for x in dates]
     return [datetime(int(x[2]), MONTHS[x[1]], int(x[0])) for x in split]
 
 
+"""
+Returns the new string text for a list of date strings.
+"""
 def get_new_strings(dates) -> list:
     now = datetime.now()
     delta = timedelta(days = -7)
@@ -36,6 +42,9 @@ def get_new_strings(dates) -> list:
     return [NEW_TEXT if x >= delta else "" for x in deltas]
 
 
+"""
+Returns a list of strings for the blog posts.
+"""
 def fetch_blog_post_links() -> list:
     request = requests.get(BLOG_URL)
     soup = BeautifulSoup(request.content, "html.parser")
@@ -47,6 +56,9 @@ def fetch_blog_post_links() -> list:
     return [f"* {y} [{''.join(x.contents).strip()}]({BLOG_URL + x['href']}) {z}" for x, y, z in zip(links, dates, new_strings)]
 
 
+"""
+Returns the blog posts string.
+"""
 def get_blog_posts_string() -> str:
     links = fetch_blog_post_links()
 
@@ -56,6 +68,9 @@ def get_blog_posts_string() -> str:
     return "\n".join(links)
 
 
+"""
+Writes the README file.
+"""
 def write_readme():
     with open(README_TEMPLATE, "rt") as fh:
         template = Template(fh.read())
