@@ -1,10 +1,39 @@
 import requests
 from bs4 import BeautifulSoup
 from jinja2 import Template
+from datetime import datetime, timedelta
 
 BLOG_URL = "https://mpewsey.github.io"
 README_TEMPLATE = "README_Template.md"
 README_PATH = "README.md"
+NEW_TEXT = ":sparkles:New"
+
+MONTHS = {
+    "Jan" : 1,
+    "Feb" : 2,
+    "Mar" : 3,
+    "Apr" : 4,
+    "May" : 5,
+    "Jun" : 6,
+    "Jul" : 7,
+    "Aug" : 8,
+    "Sep" : 9,
+    "Oct" : 10,
+    "Nov" : 11,
+    "Dec" : 12,
+}
+
+
+def parse_dates(dates) -> list:
+    split = [x.split(" ") for x in dates]
+    return [datetime(int(x[2]), MONTHS[x[1]], int(x[0])) for x in split]
+
+
+def get_new_strings(dates) -> list:
+    now = datetime.now()
+    delta = timedelta(days = -7)
+    deltas = [x - now for x in parse_dates(dates)]
+    return [NEW_TEXT if x >= delta else "" for x in deltas]
 
 
 def fetch_blog_post_links() -> list:
@@ -14,7 +43,8 @@ def fetch_blog_post_links() -> list:
     meta = soup.find_all("span", class_="post-meta")
     links = [x.find("a") for x in headers]
     dates = [x.contents[0][:11] for x in meta]
-    return [f"* {y} [{''.join(x.contents).strip()}]({BLOG_URL + x['href']})" for x, y in zip(links, dates)]
+    new_strings = get_new_strings(dates)
+    return [f"* {y} [{''.join(x.contents).strip()}]({BLOG_URL + x['href']}) {z}" for x, y, z in zip(links, dates, new_strings)]
 
 
 def get_blog_posts_string() -> str:
