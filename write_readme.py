@@ -1,7 +1,7 @@
+import bs4
+import datetime
+import jinja2
 import requests
-from bs4 import BeautifulSoup
-from jinja2 import Template
-from datetime import datetime, timedelta
 
 BLOG_URL = "https://mpewsey.github.io"
 README_TEMPLATE = "README_Template.md"
@@ -29,15 +29,15 @@ Returns a list of date times parsed from a list of date strings.
 """
 def parse_dates(dates) -> list:
     split = [x.split(" ") for x in dates]
-    return [datetime(int(x[2]), MONTHS[x[1]], int(x[0])) for x in split]
+    return [datetime.datetime(int(x[2]), MONTHS[x[1]], int(x[0])) for x in split]
 
 
 """
 Returns the new string text for a list of date strings.
 """
 def get_new_strings(dates) -> list:
-    now = datetime.now()
-    delta = timedelta(days = -7)
+    now = datetime.datetime.now()
+    delta = datetime.timedelta(days = -7)
     deltas = [x - now for x in parse_dates(dates)]
     return [NEW_TEXT if x >= delta else "" for x in deltas]
 
@@ -47,7 +47,7 @@ Returns a list of strings for the blog posts.
 """
 def fetch_blog_post_links() -> list:
     request = requests.get(BLOG_URL)
-    soup = BeautifulSoup(request.content, "html.parser")
+    soup = bs4.BeautifulSoup(request.content, "html.parser")
     headers = soup.find_all("h3")
     meta = soup.find_all("span", class_="post-meta")
     links = [x.find("a") for x in headers]
@@ -73,7 +73,7 @@ Writes the README file.
 """
 def write_readme():
     with open(README_TEMPLATE, "rt") as fh:
-        template = Template(fh.read())
+        template = jinja2.Template(fh.read())
 
     blog_posts = get_blog_posts_string()
     readme = template.render(blog_posts = blog_posts)
