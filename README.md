@@ -10,3 +10,5 @@
 * 28 Sep 2021 [MNIST Handwritten Digit Classification](https://mpewsey.github.io/2021/09/28/mnist-handwritten-digit-classification.html) 
 * 27 Sep 2021 [Transmission Line Structure LiDAR Comparison](https://mpewsey.github.io/2021/09/27/transmission-line-structure-lidar-comparison.html) 
 * 24 Sep 2021 [Steel Member Tensile Strength: Equivalent Number of Bolts for Net Area Calculations](https://mpewsey.github.io/2021/09/24/steel-member-tensile-strength-equivalent-number-of-bolts.html) 
+
+Last Updated: 26 Apr 2022, 01:24 PM UTC
