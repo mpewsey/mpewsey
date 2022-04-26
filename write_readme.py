@@ -69,6 +69,14 @@ def get_blog_posts_string() -> str:
 
 
 """
+Returns the current time string.
+"""
+def current_datetime_string() -> str:
+    now = datetime.datetime.utcnow()
+    return now.strftime("%d %b %Y, %I:%M %p UTC")
+
+
+"""
 Writes the README file.
 """
 def write_readme():
@@ -76,7 +84,8 @@ def write_readme():
         template = jinja2.Template(fh.read())
 
     blog_posts = get_blog_posts_string()
-    readme = template.render(blog_posts = blog_posts)
+    timestamp = current_datetime_string()
+    readme = template.render(blog_posts = blog_posts, timestamp = timestamp)
 
     with open(README_PATH, "wt") as fh:
         fh.write(readme)
