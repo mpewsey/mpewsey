@@ -84,8 +84,7 @@ def write_readme():
         template = jinja2.Template(fh.read())
 
     blog_posts = get_blog_posts_string()
-    timestamp = current_datetime_string()
-    readme = template.render(blog_posts = blog_posts, timestamp = timestamp)
+    readme = template.render(blog_posts = blog_posts)
 
     with open(README_PATH, "wt") as fh:
         fh.write(readme)
