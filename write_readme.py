@@ -7,7 +7,7 @@ BLOG_URL = "https://mpewsey.github.io"
 README_TEMPLATE = "README_Template.md"
 README_PATH = "README.md"
 NEW_TEXT = ":sparkles:New"
-POST_COUNT = 5
+POST_COUNT = 7
 
 MONTHS = {
     "Jan" : 1,
