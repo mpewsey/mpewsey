@@ -7,6 +7,7 @@ BLOG_URL = "https://mpewsey.github.io"
 README_TEMPLATE = "README_Template.md"
 README_PATH = "README.md"
 NEW_TEXT = ":sparkles:New"
+POST_COUNT = 5
 
 MONTHS = {
     "Jan" : 1,
@@ -65,7 +66,7 @@ def get_blog_posts_string() -> str:
     if not links:
         return "No Posts Available"
 
-    return "\n".join(links)
+    return "\n".join(links[:POST_COUNT])
 
 
 """
