@@ -7,6 +7,7 @@ BLOG_URL = "https://mpewsey.github.io"
 README_TEMPLATE = "README_Template.md"
 README_PATH = "README.md"
 NEW_TEXT = ":sparkles:New"
+NEW_DAYS = 21
 POST_COUNT = 7
 
 MONTHS = {
@@ -38,7 +39,7 @@ Returns the new string text for a list of date strings.
 """
 def get_new_strings(dates) -> list:
     now = datetime.datetime.now()
-    delta = datetime.timedelta(days = -7)
+    delta = datetime.timedelta(days = -NEW_DAYS)
     deltas = [x - now for x in parse_dates(dates)]
     return [NEW_TEXT if x >= delta else "" for x in deltas]
 
