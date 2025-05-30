@@ -8,7 +8,7 @@ README_TEMPLATE = "README_Template.md"
 README_PATH = "README.md"
 NEW_TEXT = ":sparkles:New"
 NEW_DAYS = 21
-POST_COUNT = 4
+POST_COUNT = 5
 
 MONTHS = {
     "Jan" : 1,
